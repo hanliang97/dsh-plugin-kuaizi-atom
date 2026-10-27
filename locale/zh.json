@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "筷子原子能力 MCP",
+    "description": "筷子原子能力 MCP（kuaizi-atom）：文生图 / 文生视频 / 视频处理 / 矩阵发布 / 数据洞察等全量工具。需环境变量 KUAIZI_API_KEY（pk_ 开头，原子能力平台获取）。"
+  }
+}

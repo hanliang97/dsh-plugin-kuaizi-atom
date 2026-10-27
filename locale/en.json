@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Kuaizi Atom MCP",
+    "description": "Kuaizi atom capabilities MCP (kuaizi-atom): image/video generation, video processing, matrix publishing, data insights. Requires env KUAIZI_API_KEY (pk_...)."
+  }
+}

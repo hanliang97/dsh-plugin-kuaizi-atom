@@ -1,0 +1,11 @@
+# 筷子原子能力 MCP（kuaizi-atom）——Streamable HTTP + Kz-Api-Key。
+# 环境变量 KUAIZI_API_KEY=pk_… 由用户在启动 dsh 前设置（获取：原子能力平台 MCP 接入目录）。
+- insert:
+    - id: kuaizi-atom
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: kuaizi_atom
+        transport: streamable-http
+        url: https://fde-api-ex.kuaizi.co/fde-kmcp/mcp
+        headers:
+          Kz-Api-Key: !!js 'process.env.KUAIZI_API_KEY || ""'
