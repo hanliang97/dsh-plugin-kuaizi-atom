@@ -3,14 +3,26 @@
   "description": "筷子原子能力 MCP（kuaizi-atom）：文生图 / 文生视频 / 视频处理 / 矩阵发布 / 数据洞察等全量原子能力工具。安装后需设置环境变量 KUAIZI_API_KEY（pk_ 开头，见 README）。",
   "version": "1.0.0",
   "type": "module",
-  "dsh.bundle": { "patch": "./kuaizi-atom.cordis.yml" },
-  "keywords": ["kuaizi", "atom", "mcp", "筷子", "原子能力"],
-  "engines": { "dsh": ">=0.2.0-rc.2" },
+  "keywords": [
+    "kuaizi",
+    "atom",
+    "mcp",
+    "筷子",
+    "原子能力"
+  ],
+  "engines": {
+    "dsh": ">=0.2.0-rc.2"
+  },
   "icon": "./icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hanliang97/dsh-plugin-kuaizi-atom.git"
   },
-  "homepage": "https://dev-fde.kuaizi.co/fde-atom-demo-web/#/mcp-catalog"
+  "homepage": "https://dev-fde.kuaizi.co/fde-atom-demo-web/#/mcp-catalog",
+  "dsh": {
+    "bundle": {
+      "patch": "./kuaizi-atom.cordis.yml"
+    }
+  }
 }
